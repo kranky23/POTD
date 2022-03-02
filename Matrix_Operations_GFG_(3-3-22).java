@@ -1,3 +1,31 @@
+/*
+Problem statement:
+
+Given a binary matrix of dimensions N * M. One can perform the given operation in the matrix.
+
+    If the value of matrix[i][j] is 0, then traverse in the same direction and check the next value.
+    If the value of matrix[i][j] is 1, then update matrix[i][j] to 0 and change the current direction from up, right, down, or left to the directions right, down, left, and up respectively.
+
+Initially you start from cell(0, 0), moving in right direction.
+
+The task is to find the indices of the matrix  which leads to outside the matrix from the traversal of the given matrix from the cell (0, 0) by performing the operations.
+
+Example 1:
+Input: 
+matrix[][] = {{0, 1, 1, 1, 0},
+              {1, 0, 1, 0, 1},
+              {1, 1, 1, 0, 0}}
+
+Output: (2,0)
+----------------------------------------
+Example 2:
+Input:
+matrix[][] = {{0,1},
+              {1,0}}
+
+Output: (1,1)
+*/
+
 class Solution
 {
     static int [] endPoints(int [][]arr, int m, int n)
