@@ -6,7 +6,7 @@ class Solution
         int count = 0;
         int x = 0, y=0;
         
-        boolean up = false, down = false, right = false, left = false;
+        boolean up = false, down = false, right = false, left = false; //variables to keep track of the direction
         
         right = true;
         
