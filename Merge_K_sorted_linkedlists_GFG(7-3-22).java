@@ -6,6 +6,9 @@ Topic Tags : Heap , Linked List
 
 Date: 7-3-22
 
+Time Complexity: k * nlogn where k is the number of lists and  n is the maximum size of all the k linked lists..
+
+
 Problem Statement:
 Given K sorted linked lists of different sizes. The task is to merge them in such a way that after merging they will be a single sorted linked list.
 
